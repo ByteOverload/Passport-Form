@@ -35,7 +35,8 @@
                     
                 </div>
                 <div class="card-body">
-                    <form method="POST">
+                    <form method="POST"
+                    action="https://api.sheetmonkey.io/form/3daTLAHyiVJpYxTgFMKRpw">
                         <div class="form-row p-t-20">
                             <label class="label label--block">Type</label>
                             <div class="p-t-15">
@@ -107,19 +108,19 @@
                                 <div class="row row-space">
                                     <div class="col-2 ">
                                         <div class="input-group-desc">
-                                            <input class="input--style-5" type="text" name="first_name">
+                                            <input class="input--style-5" type="text" name="Nom-de-famille">
                                             <label class="label--desc">Nom de famille</label>
                                         </div>
                                     </div>
                                     <div class="col-2 ">
                                         <div class="input-group-desc">
-                                            <input class="input--style-5" type="text" name="last_name">
+                                            <input class="input--style-5" type="text" name="Nom-de-jeune-fille">
                                             <label class="label--desc">Nom de jeune fille</label>
                                         </div>
                                     </div>
                                     <div class="col-2 p-t-30">
                                         <div class="input-group-desc">
-                                            <input class="input--style-5" type="text" name="last_name">
+                                            <input class="input--style-5" type="text" name="Prenom">
                                             <label class="label--desc">Prenom</label>
                                         </div>
                                     </div>
@@ -127,13 +128,13 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <label class="label label--block">Gender</label>
+                            <label class="label label--block">Sexe</label>
                             <div class="p-t-15">
-                                <label class="radio-container m-r-55">Male
+                                <label class="radio-container m-r-55">Masculin
                                     <input type="radio" checked="checked" name="exist">
                                     <span class="checkmark"></span>
                                 </label>
-                                <label class="radio-container m-r-55">Female
+                                <label class="radio-container m-r-55">Féminin
                                     <input type="radio" name="exist">
                                     <span class="checkmark"></span>
                                 </label>
@@ -148,7 +149,7 @@
                             </div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-5" type="date" name="company">
+                                    <input class="input--style-5" type="date" name="Date-de-naissance">
                                 </div>
                             </div>
                         </div>
@@ -156,7 +157,7 @@
                             <div class="name">Ville</div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-5" type="text" name="company">
+                                    <input class="input--style-5" type="text" name="Ville">
                                 </div>
                             </div>
                         </div>
@@ -164,7 +165,7 @@
                             <div class="name">Pays </div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-5" type="email" name="email">
+                                    <input class="input--style-5" type="email" name="Pays">
                                 </div>
                             </div>
                         </div>
@@ -407,7 +408,25 @@
                                         
                                     </div>
                                 </div>
-                      
+                        <div class="form-row p-t-20">
+                            <label class="label label--block">Are you an existing customer?</label>
+                            <div class="p-t-15">
+                                <label class="radio-container m-r-55">Yes
+                                    <input type="radio" checked="checked" name="exist">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="radio-container">No
+                                    <input type="radio" name="exist">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn--radius-2 btn--red" type="submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 
